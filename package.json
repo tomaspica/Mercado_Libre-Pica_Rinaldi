@@ -1,0 +1,17 @@
+{
+  "name": "mercadolibre-pica-rinaldi",
+  "version": "1.0.0",
+  "description": "Mercado Libre",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css":"node-sass --include-path scss sass/_stylesass.scss stylesheet/stylenew.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "Tomás Pica Rinaldi",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}

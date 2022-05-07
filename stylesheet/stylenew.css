@@ -1,0 +1,118 @@
+/*Estilos header*/
+header {
+  background-image: linear-gradient(to right, yellow, #ffff84); }
+
+/* Estilos index */
+.card:hover {
+  transform: scale(1.1);
+  border: 1px solid white;
+  box-shadow: 0px 0px 50px black;
+  cursor: pointer; }
+
+/* Estilos Login */
+.cuentaContainer {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  background-color: #ffff9b; }
+
+.cuentaContainer form {
+  background-color: yellow;
+  padding: 20px 50px; }
+  .cuentaContainer form .email:hover {
+    transform: scale(1.1);
+    cursor: pointer; }
+  .cuentaContainer form .password:hover {
+    transform: scale(1.1);
+    cursor: pointer; }
+  .cuentaContainer form .cuentaRegistrarse {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .cuentaContainer form .cuentaButton:hover {
+    transform: scale(1.1);
+    cursor: pointer; }
+
+.cuentaButton {
+  display: flex;
+  justify-content: center; }
+
+/* Estilos Contacto */
+.cuentaContainer {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  background-color: #ffff9b; }
+
+.cuentaContainer form {
+  background-color: yellow;
+  padding: 20px 50px; }
+  .cuentaContainer form .nombre:hover {
+    transform: scale(1.1);
+    cursor: pointer; }
+  .cuentaContainer form .apellido:hover {
+    transform: scale(1.1);
+    cursor: pointer; }
+  .cuentaContainer form .email:hover {
+    transform: scale(1.1);
+    cursor: pointer; }
+  .cuentaContainer form .password:hover {
+    transform: scale(1.1);
+    cursor: pointer; }
+  .cuentaContainer form .cuentaRegistrarse {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .cuentaContainer form .cuentaButton:hover {
+    transform: scale(1.1);
+    cursor: pointer; }
+
+.cuentaButton {
+  display: flex;
+  justify-content: center; }
+
+/* Estilos ayuda */
+main {
+  background-color: #ffff9b; }
+  main .leyenda {
+    display: flex;
+    margin: 30px 600px; }
+  main .buscador {
+    display: flex;
+    justify-content: center;
+    margin: 20px; }
+  main h6 {
+    display: flex;
+    margin: 30px 600px;
+    align-content: center; }
+  main .cuentaRegistrarse {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    main .cuentaRegistrarse .list-group-item {
+      margin: 3px; }
+  main .cuentaRegistrarse {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+
+/* Estilos ubicacion */
+span {
+  margin: 20px; }
+  span h4 {
+    margin: 10px; }
+  span p {
+    margin-left: 20px;
+    display: flex; }
+  span .mapa {
+    display: flex;
+    justify-content: left;
+    margin: 50px; }
+
+/* Estilos footer */
+footer {
+  background-image: linear-gradient(to right, yellow, #ffff84); }
